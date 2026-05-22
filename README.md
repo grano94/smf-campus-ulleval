@@ -12,7 +12,7 @@ Supplementary information assoicated with the published journal article:
 
 ## Usage
 
-The main package is `deepxtwin`, organized into subpackages for different functionalities. *(Note: Full restructuring is ongoing.)*
+The main package is `deepxtwin`, organized into subpackages for different functionalities. *(Note: Code associated with parametric FE modelling has not been uploaded due to size limitations.)*
 
 Project structure:
 ```
