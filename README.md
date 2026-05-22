@@ -21,10 +21,8 @@ Project structure:
 │   ├───sampling            # Latin Hypercube Sampling for sampling plan.
 │   ├───surrogate           # Construction and analysis.
 config.toml                 # Configuration settings (TOML format)
-main.py                     # Top-level script for parametric FE simulations
 poetry.lock                 # Dependency lock file
 pyproject.toml              # Project metadata and dependencies
-test_ngilive.py             # Testing script
 ```
 
 ## Installation
