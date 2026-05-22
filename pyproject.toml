@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "smf-campus-ulleval"
+version = "0.1.0"
+description = "Surrogate model framework adopted for C-SPW Campus Ullevål"
+readme = "README.md"
+packages = [{ include = "deepxtwin" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+plxscripting = "^1.0.4"
+toml = "^0.10.2"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+python-dotenv = "^1.0.1"
+numpy = "^2.3.1"
+chaospy = "^4.3.18"
+seaborn = "^0.13.2"
+scikit-learn = "^1.7.0"
+plotly = "^6.2.0"
+nbformat = "^5.10.4"
+ipywidgets = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
